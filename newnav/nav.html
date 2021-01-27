@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>nav bar</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="nav.css">
+</head>
+
+<body>
+    <nav class="nav">
+        <div id="navcon">
+            <img id="icon" src="navicon.png">
+            <div id="div" ><img id="content" src="flipkart.png"></div>
+            <input class="navbtn" onblur="setTimeout (xblur,150)">
+        </div>
+        <div class="navcont" style="display: block;">
+            <div id="menu_google" class="navlist">GOOGLE</div>
+            <div id="menu_microsoft" class="navlist">MICROSOFT</div>
+            <div id="menu_apple" class="navlist">APPLE</div>
+        </div>
+    </nav>
+    <div class="container">
+    <div id="microsoft" class="box" hidden>
+        <h3 id="h1">Microsoft</h3>
+        <p id="p1">Microsoft Corporation is an American multinational technology company with headquarters in Redmond, Washington. It develops, manufactures, licenses, supports, and sells computer software, consumer electronics, personal computers, and related services. Its best known software products are the Microsoft Windows line of operating systems, the Microsoft Office suite, and the Internet Explorer and Edge web browsers. Its flagship hardware products are the Xbox video game consoles and the Microsoft Surface lineup of touchscreen personal computers. Microsoft ranked No. 21 in the 2020 Fortune 500 rankings of the largest United States corporations by total revenue; it was the world's largest software maker.</p>
+    </div>
+    <div id="google" class="box" hidden>
+        <h3 id="h2">Google</h3>
+        <p id="p2">Google, LLC is an American multinational technology company that specializes in Internet-related services and products, which include online advertising technologies, a search engine, cloud computing, software, and hardware. It is considered one of the Big Five technology companies in the U.S. information technology industry, alongside Amazon, Facebook, Apple, and Microsoft. Google was founded in September 1998 by Larry Page and Sergey Brin while they were Ph.D. students at Stanford University in California They incorporated Google as a California privately held company on September 4, 1998, in California.sundar pichai is the ceo of google and also for its parent company alphabet.</p>
+    </div>
+    <div id="apple" class="box" hidden>
+        <h3 id="h3">Apple</h3>
+        <p id="p3">Apple was founded by Steve Jobs, Steve Wozniak, and Ronald Wayne in April 1976 to develop and sell Wozniak's Apple I personal computer, though Wayne sold his share back within 12 days. It was incorporated as Apple Computer, Inc., in January 1977, and sales of its computers, including the Apple II, grew quickly. Within a few years, Jobs and Wozniak had hired a staff of computer designers and had a production line. Apple went public in 1980 to instant financial success. Over the next few years, Apple shipped new computers featuring innovative graphical user interfaces, such as the original Macintosh in 1984, and Apple's marketing advertisements for its products received widespread critical acclaim.</p>
+    </div>
+    <button type="button" onclick="setspeed()" id="sp">speed</button>
+    </div>
+    <script src="navbutton/script.js"></script>
+</body>
+</html>
